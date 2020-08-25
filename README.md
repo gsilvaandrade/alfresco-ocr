@@ -34,7 +34,8 @@ pip install reportlab==3.4.0
 # Criar script ocr.sh contendo:
 
 #!/usr/bin/env bash
-#set -o xtrace # Uncomment for debugging/troubleshooting
+#set -o xtrace 
+#Uncomment for debugging/troubleshooting
 
 array=( "$@" )
 unset "array[${#array[@]}-1]"
@@ -53,7 +54,7 @@ vi ./tomcat/shared/classes/alfresco-global.properties
 
 #alfresco-global.properties
 #PYPDFOCR
-ocr.command=/opt/alfresco/scripts/ocr.sh
+ocr.command=/opt/alfresco-community/scripts/ocr.sh
 ocr.output.verbose=true
 ocr.output.file.prefix.command=
 
