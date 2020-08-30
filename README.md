@@ -52,7 +52,6 @@ apt install gcc libjpeg-dev minizip zlib1g-dev python-dev
 # Configuração no Alfresco
 vi ./tomcat/shared/classes/alfresco-global.properties
 
-#alfresco-global.properties
 #PYPDFOCR
 ocr.command=/opt/alfresco-community/scripts/ocr.sh
 ocr.output.verbose=true
